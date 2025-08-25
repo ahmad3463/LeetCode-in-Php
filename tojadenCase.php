@@ -41,6 +41,17 @@
         // $arr = [1,-4,7,12];
         // print_r(postive_sum($arr));
 
+            function sum($a){
+                if($a == []){
+                    return 0;
+                }else{
+                    $arry_sum = array_sum($a);
+                }
+                return $arry_sum;
+            }
+
+            $a = [1,5.2,4,0,-1];
+        print_r(sum($a));
 
 
 
